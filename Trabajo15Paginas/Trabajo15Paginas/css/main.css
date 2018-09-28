@@ -1,0 +1,286 @@
+
+  
+        /* selectores css
+        son 3 los selectores,el primero es el selector por elemento ejemplo  h1 { color: red;} con esto cambia todos 
+        los h1 el cambio de color, el segundo selector por ID ejemplo id="elemento"  solo debe colocar un id unico como nombre 
+        se pone en el campo style como #elemento{ color:red}, el tercer selesctor es el selector por clase sele da el atributo de 
+        class="red-tex" en el campo css se expresa .red-text{color:red; este ultimo se puede repetir cuanto uno lo quiera
+        }*/
+/* #F1FDED blanco
+#C7D323 moztasa
+#232207 negro base
+#875845 cafe
+#C60E0B rojo
+        }*/
+        html{
+            font-family: 'Hanalei Fill', cursive;
+        }
+
+.container{
+
+    background:white;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    }
+    
+.content{
+    display: flex;  
+    align-items:right;
+    text-align:center ;
+    justify-content: center;
+    max-width: 1100px;
+    max-height: 1100px;
+    width: 100%;
+    height: 100%;
+    background:white;
+    font-size: 18px;
+    font-size: 18px;
+    color:rgb(13, 49, 148);
+
+}
+
+.tituloEquipo
+{
+    color:rgb(73, 72, 72);
+    text-decoration: underline ;
+}
+.insignia
+{
+    height:30px; 
+    width:25;
+
+}
+
+.tabla{
+    background:rgb(73, 72, 72);
+    font-size: 20px;
+    color:white;
+    border-collapse: separate;
+    border-spacing:  5px;
+}
+
+.tablaEquipo
+{
+    border-collapse: separate;
+    border-spacing:  5px;
+    color:rgb(36, 36, 165);
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing:  10px 20px;
+  }
+      
+ .left{
+
+    position: absolute;bottom: 205px;
+    position: absolute;right: 145px;
+ }       
+
+ .right{
+    position: absolute;bottom: 205px;
+    position: absolute;left: 145px;
+ }
+
+ .content2{
+    display: flex;  
+    align-items:center;
+    justify-content: center;
+    max-width: 1100px;
+    max-height: 1100px;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color:blue;
+ }
+
+ .left2{
+
+    position: absolute;bottom: 150px;
+    position: absolute;right: 200px;
+ }       
+
+ .right2{
+    position: absolute;top: 150px;
+    position: absolute;right: 200px;
+ }
+
+ .muerte{
+    position: absolute;top: 10px;
+    position: absolute;right: 2px;
+        } 
+.muerte2{
+    position: absolute;top: 10px;
+    position: absolute;left: 2px;
+        } 
+
+.ver{
+        border: solid 1px;
+        padding: 0.6em;
+        border-radius: 25px;
+        width: 5em;
+        text-align: center;
+        background-color:white;
+        color:black;
+        font-size: 17px;
+        position: absolute;top: 530px;
+        position: absolute;right: 1070px; 
+
+    } 
+    .ver:hover{
+        background-color:orange;
+    }
+
+.skull1{
+
+        position: absolute;top: 50px;
+        position: absolute;right: 620px;        
+    } 
+    .skull2{
+
+        position: absolute;top: 50px;
+        position: absolute;right: 560px;        
+    } 
+    .skull3{
+
+        position: absolute;top: 50px;
+        position: absolute;right: 500px;        
+    } 
+    .skull4{
+
+        position: absolute;top: 50px;
+        position: absolute;right: 440px;        
+    } 
+    .skull5{
+
+        position: absolute;top: 50px;
+        position: absolute;right: 380px;        
+    } 
+    .foto{
+
+        position: absolute;top: 400px;
+        position: absolute;right: 958px;        
+    } 
+
+    .video{
+
+        position: absolute;top: 400px;
+        position: absolute;right: 410px;        
+    } 
+
+    .resena{
+        display: flex;  
+        align-items:center;
+        justify-content:left;
+        max-width: 900px;
+        max-height: 300px;
+        width: 90%;
+        height: 100%;
+        position: absolute;top: 95px;
+        position: absolute;right: 260px; 
+        font-size: 22px;
+        font-style:inherit;
+        color:rgb(82, 73, 73);
+        } 
+
+    .biografia{
+        border: solid 1px;
+        padding: 0.5em;
+        border-radius: 40px;
+        width: 10em;
+        text-align: center;
+        background-color:white;
+        color:black;
+        font-size: 17px;
+        position: absolute;top: 530px;
+        position: absolute;right: 160px; 
+    } 
+    .biografia:hover{
+        background-color:orange;
+    }
+    .vermas{
+        font-size:15px;
+        color:orange;
+          } 
+    .vermas:hover{
+        color:orange;
+    }  
+
+    @media(max-width: 600px)
+    {
+   
+    th{display:none;}
+    td{display:block}
+
+    
+        .tablaEquipo
+        {
+
+        }
+    .right{
+        position: absolute;bottom: 190px;
+        position: absolute;left: 250px;}
+
+.muerte{display: none;} 
+.muerte2{display: none;} 
+.left{display: none;}       
+.left2{display: none;}       
+.right2{display: none;}
+.skull1{display: none;} 
+.skull2{display: none;} 
+.skull3{display: none;} 
+.skull4{display: none;} 
+.skull5{display: none;} 
+.foto{display: none;} 
+.insignia{display: none;}
+
+
+    .ver{
+        border: solid 1px;
+        padding: 0.2em;
+        border-radius: 20px;
+        width: 5em;
+        text-align: center;
+        background-color:rgb(82, 73, 73);
+        color:white;
+        position: absolute;top: 480px;
+        position: absolute;right: 140px;} 
+    .video{
+        width: 50%;
+        height: 25%;
+        position: absolute;top: 320px;
+        position: absolute;right: 90px;}
+    .resena{
+        display: block;
+        padding:0.5em;
+        align-items:center;
+        justify-content:left;
+        max-height: 150px;
+        max-width: 400px;
+        width: 70%;
+        height: 100%;
+        position: absolute;top: 100px;
+        position: absolute;right: 40px; 
+        background:rgb(131, 126, 126);
+        border-radius: 20px;
+        font-size: 17px;
+        font-style:inherit;
+        color:white;
+        overflow:scroll;}  
+    .biografia{
+        border: solid 0.5px;
+        padding: 0.3em;
+        border-radius: 20px;
+        height: 30px ;
+        width: 60px;
+        text-align: center;
+        background-color:white;
+        color:black;
+        font-size: 10px;
+        position: absolute;top:270px;
+        position: absolute;right: 80px;} 
+    
+    }
